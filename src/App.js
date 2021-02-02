@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Employee from './components/pages/employee.js';
+//import Employee from './components/pages/employee.js';
 import NavTabs from './components/NavTabs';
 import Search from './components/pages/search';
 import './App.css';
@@ -10,7 +10,6 @@ function App() {
     <Router>
       <div>
         <NavTabs />
-        <Route exact path="/" component={Employee} />
         <Route exact path="/search" component={Search} />
       </div>
     </Router>
